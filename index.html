@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Youtube Clone</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/016a3b4736.js" type="text/javascript">
+
+    </script>
+  </head>
+  <body>
+    <header>
+      <nav class="header-nav">
+        <div class="left_part_nav">
+          <button class="bars">
+            <i class="fas fa-bars"></i>
+          </button>
+          <img width="100" src="https://logos-world.net/wp-content/uploads/2020/04/YouTube-Logo.png" alt="">
+        </div>
+        <div class="middle_part_nav">
+          <form class="" action="index.html" method="post">
+            <input type="text" name="search" value="" placeholder="Search">
+            <button type="submit" name="button">
+              <i class="fas fa-search"></i>
+            </button>
+          </form>
+
+        </div>
+        <div class="right_part_nav">
+          <i class="fas fa-video"></i>
+          <i class="fas fa-th"></i>
+          <i class="fas fa-ellipsis-v"></i>
+          <button type="button" id="sign-in-btn" name="button">
+            <i class="fas fa-user-circle"></i>
+            Sign In
+          </button>
+        </div>
+      </nav>
+    </header>
+
+    <section>
+      <div id=lang-alert>
+        <div class="lang-alert-head">
+          <i class="fas fa-globe"></i>
+          Choose your language.
+          <span class="close float-right"><i class="fas fa-times"></i></span>
+        </div>
+        <div class="lang-alert-body">
+          You're viewing YouTube in English (US). You can <a href="#">change this preference below</a>.
+          <a class="float-right" href="#">Learn more</a>
+        </div>
+      </div>
+    </section>
+    <main class="main">
+      <section class="video-section">
+        <iframe height="511" src="https://www.youtube.com/embed/fP2w_UAK6B4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div class="infos">
+            <p>
+              Avengers Assemble - Portals Scene | Avengers: Endgame (2019) Movie Clip
+            </p>
+          <div class="video-infos">
+            <div class="channel-infos">
+              <img width="50" height="50" src="https://yt3.ggpht.com/a/AATXAJxtxXEr7REpQnCxluL4hnkPMhedFtYkyGgzgOaG=s48-c-k-c0xffffffff-no-rj-mo" alt="">
+              <div class="">
+                <p class="channel-name">The Odin Project</p>
+                <button id="subscribe" type="button" name="button">
+                  <span>
+                    <i class="fab fa-youtube"></i>
+                    Subscribe
+                  </span>
+                  <span class="channel-subscribers">
+                    799
+                  </span>
+                </button>
+
+              </div>
+              <div class="views">
+                <p>3,461,307 views</p>
+              </div>
+            </div>
+
+            <div class="video-actions">
+              <div class="add_share_more">
+                <span><i class="fas fa-plus"></i>Add To</span>
+                <span><i class="fas fa-share"></i>Share</span>
+                <span><i class="fas fa-ellipsis-h"></i>More</span>
+              </div>
+              <div class="like_dislike">
+                  <span><i class="fas fa-thumbs-up"></i>340</span>
+                  <span><i class="fas fa-thumbs-down"></i>23</span>
+
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+        <div class="infos">
+          <div class="description">
+            <p>
+              <strong>
+                Published on Feb 27, 2014
+              </strong>
+            </p>
+            <p>How do you contribute to open source? In this video, I'll describe the easiest way to make a simple contribution to an open source project -- without using the command line, a text editor, "forking a repo", or even touching Git outside of Github. I'll also describe what kinds of contributions open source software projects are typically looking for. As an example, I use submitting a student solution to a web development exercise from The Odin Project, a free online curriculum for learning web development with Ruby on Rails. You can find more information about that project at http://theodinproject.com.</p>
+          </div>
+          <p class="show_more_wrapper">
+            <button class="show-more" type="button" name="button"><strong>Show More</strong></button>
+          </p>
+        </div>
+
+        <div class="infos">
+          <p id="loading">
+            <i class="fas fa-spinner"></i>
+            <strong>Loading</strong>
+          </p>
+        </div>
+      </section>
+      <aside id="recommendation">
+        <div class="">
+          Up next
+          <div id="autoplay">
+            Autoplay
+            <i class="fas fa-info-circle"></i>
+            <i class="fas fa-toggle-on"></i>
+          </div>
+        </div>
+
+        <!-- Recommended video cards -->
+        <div class="media">
+          <div class="cover-image-wrapper">
+            <img src="images/6350ed47768d4be4388f5a8a2b530730b3520802.jpeg" alt="">
+            <time class="timer">14:25</time>
+          </div>
+          <div class="media-body">
+            <h6>Contributing to Open Source Part II: The Real Way</h6>
+            <p class="channel">The Odin Project</p>
+            <p class="view-count">29,985 views</p>
+          </div>
+        </div>
+        <hr>
+        <div class="media">
+          <div class="cover-image-wrapper">
+            <img src="images/495e6661840ba5e59315b8d9fbd12e8f79916207.jpeg" alt="">
+            <time class="timer">42:35</time>
+          </div>
+          <div class="media-body">
+            <h6>'How to Get a Job at the Big 4 - Amazon, Facebook, Google & Microsoft' by Sean Lee</h6>
+            <p class="channel">imtiana</p>
+            <p class="view-count">981,543 views</p>
+          </div>
+        </div>
+        <div class="media">
+          <div class="cover-image-wrapper">
+            <img src="images/94ce5195858269ff0184aa735ee160f562dafac4.jpeg" alt="">
+            <time class="timer">14:25</time>
+          </div>
+          <div class="media-body">
+            <h6>Programming in Visual Basic .Net How to Connect Access Database to VB.Net </h6>
+            <p class="channel">iBasskung</p>
+            <p class="view-count">29,985 views</p>
+          </div>
+        </div>
+        <div class="media">
+          <div class="cover-image-wrapper">
+            <img src="images/42fcf704757c206b21126f9ef6c413eff28de822.jpeg" alt="">
+            <time class="timer">8:53</time>
+          </div>
+          <div class="media-body">
+            <h6>REST API concepts and examples </h6>
+            <p class="channel">WebConcepts</p>
+            <p class="view-count">29,985 views</p>
+          </div>
+        </div>
+        <div class="media">
+          <div class="cover-image-wrapper">
+            <img src="images/ed9683aa07170cb5421ba283d3aad8e0a3626b97.jpeg" alt="">
+            <time class="timer">14:25</time>
+          </div>
+          <div class="media-body">
+            <h6>GitHub - Why Microsoft Paid $7.5B for the Future of Software! - A Case Study for Entrepreneurs </h6>
+            <p class="channel">Valuetainment</p>
+            <p class="view-count">29,985 views</p>
+          </div>
+        </div>
+        <div class="media">
+          <div class="cover-image-wrapper">
+            <img src="images/6350ed47768d4be4388f5a8a2b530730b3520802.jpeg" alt="">
+            <time class="timer">14:25</time>
+          </div>
+          <div class="media-body">
+            <h6>How to create a 3D Terrain with Google Maps and height maps in Photoshop - 3D Map Generator Terrain </h6>
+            <p class="channel">Orange Box Ceo</p>
+            <p class="view-count">123,29,985 views</p>
+          </div>
+        </div>
+        <div class="media">
+          <div class="cover-image-wrapper">
+            <img src="images/df21e12d7260fba2247c4dd328453a98929270e9.jpeg" alt="">
+            <time class="timer">14:25</time>
+          </div>
+          <div class="media-body">
+            <h6>Convolutional Neural Networks (CNNs) explained </h6>
+            <p class="channel">Deeplizard</p>
+            <p class="view-count">23,998,500 views</p>
+          </div>
+        </div>
+
+
+        <p class="show_more_wrapper">
+          <button class="show-more" type="button" name="button"><strong>Show More</strong></button>
+        </p>
+      </aside>
+    </main>
+
+    <footer>
+      <nav id="settings">
+        <img width="100" src="https://logos-world.net/wp-content/uploads/2020/04/YouTube-Logo.png" alt="">
+        <button type="button" name="button">
+          <i class="fas fa-globe"></i>
+          language: English <i class="fas fa-caret-down"></i>
+        </button>
+
+        <button type="button" name="button">
+          location: Netherlands <i class="fas fa-caret-down"></i>
+        </button>
+
+        <button type="button" name="button">
+          Restricted Mode: Off <i class="fas fa-caret-down"></i>
+        </button>
+
+        <button type="button" name="button">
+          <i class="fas fa-hourglass"></i>
+          History
+        </button>
+
+        <button type="button" name="button">
+          <i class="fas fa-question-circle"></i>
+          Help
+        </button>
+      </nav>
+
+      <hr>
+
+      <nav id="important-links">
+        <a href="#">About</a>
+        <a href="#">Press</a>
+        <a href="#">Copyright</a>
+        <a href="#">Creators</a>
+        <a href="#">Advertise</a>
+        <a href="#">Developers</a>
+      </nav>
+
+      <nav id="legal">
+        <a href="#">Terms</a>
+        <a href="#">Privacy</a>
+        <a href="#">Policy & Safety</a>
+        <a href="#">Test new features</a>
+      </nav>
+    </footer>
+  </body>
+</html>
