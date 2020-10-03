@@ -15,12 +15,11 @@ This project is the first in the HTML/CSS module at Microverse
 ## Authors
 
 👤 **David YAO**
-
 - GitHub: [@daviidy](https://github.com/daviidy)
 
-👤 **Silas Kalu**
-
+👤 **CY Kalu**
 - GitHub: [@cyonii](https://github.com/cyonii)
+- Twitter: [@theOnuoha](https://twitter.com/theOnuoha)
 
 
 ## 🤝 Contributing
