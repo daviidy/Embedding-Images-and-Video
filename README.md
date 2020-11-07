@@ -12,6 +12,9 @@ This project is the first in the HTML/CSS module at Microverse
 - HTML
 - CSS
 
+## Live demo
+[Click here to see the live demo](https://daviidy.github.io/Embedding-Images-and-Video/)
+
 ## Authors
 
 👤 **David YAO**
